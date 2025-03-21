@@ -1,0 +1,3 @@
+Metric,H-statistic,p-value,Significant
+avg_tox_sent,63.08889828120596,1.05865269702921e-11,True
+avg_tox_received,76.36165116934353,2.0122322942829157e-14,True

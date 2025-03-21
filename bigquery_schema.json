@@ -1,0 +1,3682 @@
+{
+    "models": {
+        "grounded-nebula-408412.twitter_analysis_00_source_python.node_metrics_migration": {
+            "name": "node_metrics_migration",
+            "schema": "twitter_analysis_00_source_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source_python.node_metrics_migration",
+            "description": "",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "",
+                    "type": "DATE"
+                },
+                "node_id": {
+                    "name": "node_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "pagerank": {
+                    "name": "pagerank",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "degree_in": {
+                    "name": "degree_in",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "degree_out": {
+                    "name": "degree_out",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "betweenness": {
+                    "name": "betweenness",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "clustering": {
+                    "name": "clustering",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "triangles": {
+                    "name": "triangles",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "core_number": {
+                    "name": "core_number",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "interactions_sent": {
+                    "name": "interactions_sent",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "interactions_received": {
+                    "name": "interactions_received",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "interactions_total": {
+                    "name": "interactions_total",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "toxicity_sent": {
+                    "name": "toxicity_sent",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received": {
+                    "name": "toxicity_received",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_sent_avg": {
+                    "name": "toxicity_sent_avg",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received_avg": {
+                    "name": "toxicity_received_avg",
+                    "description": "",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source_python.node_metrics_climate": {
+            "name": "node_metrics_climate",
+            "schema": "twitter_analysis_00_source_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source_python.node_metrics_climate",
+            "description": "",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "",
+                    "type": "DATE"
+                },
+                "node_id": {
+                    "name": "node_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "pagerank": {
+                    "name": "pagerank",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "degree_in": {
+                    "name": "degree_in",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "degree_out": {
+                    "name": "degree_out",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "betweenness": {
+                    "name": "betweenness",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "clustering": {
+                    "name": "clustering",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "triangles": {
+                    "name": "triangles",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "core_number": {
+                    "name": "core_number",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "interactions_sent": {
+                    "name": "interactions_sent",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "interactions_received": {
+                    "name": "interactions_received",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "interactions_total": {
+                    "name": "interactions_total",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "toxicity_sent": {
+                    "name": "toxicity_sent",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received": {
+                    "name": "toxicity_received",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_sent_avg": {
+                    "name": "toxicity_sent_avg",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received_avg": {
+                    "name": "toxicity_received_avg",
+                    "description": "",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source_python.network_metrics_all": {
+            "name": "network_metrics_all",
+            "schema": "twitter_analysis_00_source_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source_python.network_metrics_all",
+            "description": "",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "",
+                    "type": "DATE"
+                },
+                "table_name": {
+                    "name": "table_name",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "nodes": {
+                    "name": "nodes",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "edges": {
+                    "name": "edges",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "density": {
+                    "name": "density",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "connected_components": {
+                    "name": "connected_components",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "transitivity": {
+                    "name": "transitivity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "modularity": {
+                    "name": "modularity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "modularity_classes": {
+                    "name": "modularity_classes",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "assortativity": {
+                    "name": "assortativity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "network_avg_toxicity": {
+                    "name": "network_avg_toxicity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "median_node_toxicity": {
+                    "name": "median_node_toxicity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "max_core_number": {
+                    "name": "max_core_number",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "avg_core_number": {
+                    "name": "avg_core_number",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "rich_club_coefficient": {
+                    "name": "rich_club_coefficient",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "average_clustering": {
+                    "name": "average_clustering",
+                    "description": "",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source_python.tweet_sentiment_analysis": {
+            "name": "tweet_sentiment_analysis",
+            "schema": "twitter_analysis_00_source_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source_python.tweet_sentiment_analysis",
+            "description": "",
+            "columns": {
+                "tweet_id": {
+                    "name": "tweet_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "user_id": {
+                    "name": "user_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "recorded_at": {
+                    "name": "recorded_at",
+                    "description": "",
+                    "type": "TIMESTAMP"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "sentiment": {
+                    "name": "sentiment",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "positive_probability": {
+                    "name": "positive_probability",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "neutral_probability": {
+                    "name": "neutral_probability",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "negative_probability": {
+                    "name": "negative_probability",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_label": {
+                    "name": "toxicity_label",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "toxicity_score": {
+                    "name": "toxicity_score",
+                    "description": "",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source_python.network_metrics_climate": {
+            "name": "network_metrics_climate",
+            "schema": "twitter_analysis_00_source_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source_python.network_metrics_climate",
+            "description": "",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "",
+                    "type": "DATE"
+                },
+                "table_name": {
+                    "name": "table_name",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "nodes": {
+                    "name": "nodes",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "edges": {
+                    "name": "edges",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "density": {
+                    "name": "density",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "connected_components": {
+                    "name": "connected_components",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "transitivity": {
+                    "name": "transitivity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "modularity": {
+                    "name": "modularity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "modularity_classes": {
+                    "name": "modularity_classes",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "assortativity": {
+                    "name": "assortativity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "network_avg_toxicity": {
+                    "name": "network_avg_toxicity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "median_node_toxicity": {
+                    "name": "median_node_toxicity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "max_core_number": {
+                    "name": "max_core_number",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "avg_core_number": {
+                    "name": "avg_core_number",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "rich_club_coefficient": {
+                    "name": "rich_club_coefficient",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "average_clustering": {
+                    "name": "average_clustering",
+                    "description": "",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source_python.node_metrics_all": {
+            "name": "node_metrics_all",
+            "schema": "twitter_analysis_00_source_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source_python.node_metrics_all",
+            "description": "",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "",
+                    "type": "DATE"
+                },
+                "node_id": {
+                    "name": "node_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "pagerank": {
+                    "name": "pagerank",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "degree_in": {
+                    "name": "degree_in",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "degree_out": {
+                    "name": "degree_out",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "betweenness": {
+                    "name": "betweenness",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "clustering": {
+                    "name": "clustering",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "triangles": {
+                    "name": "triangles",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "core_number": {
+                    "name": "core_number",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "interactions_sent": {
+                    "name": "interactions_sent",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "interactions_received": {
+                    "name": "interactions_received",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "interactions_total": {
+                    "name": "interactions_total",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "toxicity_sent": {
+                    "name": "toxicity_sent",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received": {
+                    "name": "toxicity_received",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_sent_avg": {
+                    "name": "toxicity_sent_avg",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received_avg": {
+                    "name": "toxicity_received_avg",
+                    "description": "",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source_python.network_metrics_migration": {
+            "name": "network_metrics_migration",
+            "schema": "twitter_analysis_00_source_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source_python.network_metrics_migration",
+            "description": "",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "",
+                    "type": "DATE"
+                },
+                "table_name": {
+                    "name": "table_name",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "nodes": {
+                    "name": "nodes",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "edges": {
+                    "name": "edges",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "density": {
+                    "name": "density",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "connected_components": {
+                    "name": "connected_components",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "transitivity": {
+                    "name": "transitivity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "modularity": {
+                    "name": "modularity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "modularity_classes": {
+                    "name": "modularity_classes",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "assortativity": {
+                    "name": "assortativity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "network_avg_toxicity": {
+                    "name": "network_avg_toxicity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "median_node_toxicity": {
+                    "name": "median_node_toxicity",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "max_core_number": {
+                    "name": "max_core_number",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "avg_core_number": {
+                    "name": "avg_core_number",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "rich_club_coefficient": {
+                    "name": "rich_club_coefficient",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "average_clustering": {
+                    "name": "average_clustering",
+                    "description": "",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_10_staging.02_political_hashtags_count": {
+            "name": "02_political_hashtags_count",
+            "schema": "twitter_analysis_10_staging",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_10_staging.02_political_hashtags_count",
+            "description": "Aggregated statistics about hashtag usage in political contexts, focusing on hashtags used by at least one politician. Includes usage metrics and temporal data.\n",
+            "columns": {
+                "hashtag": {
+                    "name": "hashtag",
+                    "description": "The hashtag being analyzed (converted to lowercase)",
+                    "type": "STRING"
+                },
+                "usage_count": {
+                    "name": "usage_count",
+                    "description": "Total number of times the hashtag was used",
+                    "type": "INT64"
+                },
+                "unique_users": {
+                    "name": "unique_users",
+                    "description": "Number of unique users who used this hashtag",
+                    "type": "INT64"
+                },
+                "politician_users": {
+                    "name": "politician_users",
+                    "description": "Number of politicians who used this hashtag",
+                    "type": "INT64"
+                },
+                "first_used_at": {
+                    "name": "first_used_at",
+                    "description": "First recorded usage timestamp",
+                    "type": "TIMESTAMP"
+                },
+                "last_used_at": {
+                    "name": "last_used_at",
+                    "description": "Most recent usage timestamp",
+                    "type": "TIMESTAMP"
+                },
+                "_01_political_users": {
+                    "name": "_01_political_users",
+                    "description": "Percentage of users who are politicians (rounded to 2 decimals)",
+                    "type": "FLOAT64"
+                },
+                "days_active": {
+                    "name": "days_active",
+                    "description": "Number of days between first and last usage",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats.distribution_tweets_by_user_type": {
+            "name": "distribution_tweets_by_user_type",
+            "schema": "twitter_analysis_30_stats",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats.distribution_tweets_by_user_type",
+            "description": "Analyzes the distribution of tweets between politicians and general users, showing the overall contribution of each user type to the corpus.\n",
+            "columns": {
+                "user_type": {
+                    "name": "user_type",
+                    "description": "Type of user (politician or general_user)",
+                    "type": "STRING"
+                },
+                "tweet_count": {
+                    "name": "tweet_count",
+                    "description": "Total number of tweets authored by this user type",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats.distribution_users_type": {
+            "name": "distribution_users_type",
+            "schema": "twitter_analysis_30_stats",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats.distribution_users_type",
+            "description": "Counts the number of unique users in each user type category (politicians vs. general users) to understand the proportion of political actors in the Twitter conversation.\n",
+            "columns": {
+                "user_type": {
+                    "name": "user_type",
+                    "description": "Type of user (politician or general_user)",
+                    "type": "STRING"
+                },
+                "user_count": {
+                    "name": "user_count",
+                    "description": "Number of unique users belonging to this user type",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.network_all_hashtags_users": {
+            "name": "network_all_hashtags_users",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.network_all_hashtags_users",
+            "description": "Filtered view of network_all showing connections between hashtags and users, aggregated by month with toxicity metrics.\n",
+            "columns": {
+                "source": {
+                    "name": "source",
+                    "description": "Source entity (user screen name or hashtag)",
+                    "type": "STRING"
+                },
+                "target": {
+                    "name": "target",
+                    "description": "Target entity (user screen name or hashtag)",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "Start month of the aggregation period",
+                    "type": "TIMESTAMP"
+                },
+                "weight": {
+                    "name": "weight",
+                    "description": "Count of interactions between source and target",
+                    "type": "INT64"
+                },
+                "sum_toxicity": {
+                    "name": "sum_toxicity",
+                    "description": "Sum of toxicity scores for the interactions",
+                    "type": "FLOAT64"
+                },
+                "avg_toxicity": {
+                    "name": "avg_toxicity",
+                    "description": "Average toxicity score for the interactions",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.network_all_users": {
+            "name": "network_all_users",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.network_all_users",
+            "description": "Filtered view of network_all showing only user-to-user connections, aggregated by month with toxicity metrics.\n",
+            "columns": {
+                "source": {
+                    "name": "source",
+                    "description": "Source user (screen name)",
+                    "type": "STRING"
+                },
+                "target": {
+                    "name": "target",
+                    "description": "Target user (screen name)",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "Start month of the aggregation period",
+                    "type": "TIMESTAMP"
+                },
+                "weight": {
+                    "name": "weight",
+                    "description": "Count of interactions between source and target",
+                    "type": "INT64"
+                },
+                "sum_toxicity": {
+                    "name": "sum_toxicity",
+                    "description": "Sum of toxicity scores for the interactions",
+                    "type": "FLOAT64"
+                },
+                "avg_toxicity": {
+                    "name": "avg_toxicity",
+                    "description": "Average toxicity score for the interactions",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.network_all": {
+            "name": "network_all",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.network_all",
+            "description": "Comprehensive network model that captures various types of relationships between entities including user-to-user interactions, user-to-hashtag connections, and hashtag co-occurrences.\n",
+            "columns": {
+                "source": {
+                    "name": "source",
+                    "description": "Source entity (user screen name or hashtag)",
+                    "type": "STRING"
+                },
+                "target": {
+                    "name": "target",
+                    "description": "Target entity (user screen name or hashtag)",
+                    "type": "STRING"
+                },
+                "connection_type": {
+                    "name": "connection_type",
+                    "description": "Type of connection (person_person, person_mention, person_hashtag, hashtag_hashtag)",
+                    "type": "STRING"
+                },
+                "entity_type": {
+                    "name": "entity_type",
+                    "description": "Type of entities involved (person, mixed, hashtag)",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "Start month of the aggregation period",
+                    "type": "TIMESTAMP"
+                },
+                "edge_weight": {
+                    "name": "edge_weight",
+                    "description": "Count of interactions between source and target",
+                    "type": "INT64"
+                },
+                "avg_toxicity": {
+                    "name": "avg_toxicity",
+                    "description": "Average toxicity score for the interactions",
+                    "type": "FLOAT64"
+                },
+                "sum_toxicity": {
+                    "name": "sum_toxicity",
+                    "description": "Sum of toxicity scores for the interactions",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_distribution_tweets": {
+            "name": "toxicity_distribution_tweets",
+            "schema": "twitter_analysis_30_stats",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_distribution_tweets",
+            "description": "Distribution of tweets across toxicity score buckets, showing the frequency of tweets at different toxicity levels. Buckets are created at 0.05 intervals.\n",
+            "columns": {
+                "toxicity_bucket": {
+                    "name": "toxicity_bucket",
+                    "description": "Toxicity score range bucket (formatted as start of range with two decimal places)",
+                    "type": "STRING"
+                },
+                "tweet_count": {
+                    "name": "tweet_count",
+                    "description": "Number of tweets falling within this toxicity bucket",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_distribution_users": {
+            "name": "toxicity_distribution_users",
+            "schema": "twitter_analysis_30_stats",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_distribution_users",
+            "description": "Distribution of users across toxicity score buckets based on their average tweet toxicity, showing how many users typically produce content at each toxicity level.\n",
+            "columns": {
+                "toxicity_bucket": {
+                    "name": "toxicity_bucket",
+                    "description": "Toxicity score range bucket (formatted as start of range with two decimal places)",
+                    "type": "STRING"
+                },
+                "user_count": {
+                    "name": "user_count",
+                    "description": "Number of users with average toxicity in this bucket",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_distribution_users_by_party": {
+            "name": "toxicity_distribution_users_by_party",
+            "schema": "twitter_analysis_30_stats",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_distribution_users_by_party",
+            "description": "Analysis of user toxicity distributions by political party, showing how many users from each party fall into different toxicity score buckets.\n",
+            "columns": {
+                "party": {
+                    "name": "party",
+                    "description": "Political party affiliation",
+                    "type": "STRING"
+                },
+                "toxicity_bucket": {
+                    "name": "toxicity_bucket",
+                    "description": "Toxicity score range bucket (formatted as start of range with two decimal places)",
+                    "type": "STRING"
+                },
+                "user_count": {
+                    "name": "user_count",
+                    "description": "Number of users from this party with average toxicity in this bucket",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_statistics": {
+            "name": "toxicity_statistics",
+            "schema": "twitter_analysis_30_stats",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_statistics",
+            "description": "Comprehensive statistical analysis of toxicity scores, including basic descriptive statistics and percentile distributions to characterize the overall toxicity landscape.\n",
+            "columns": {
+                "metric": {
+                    "name": "metric",
+                    "description": "Type of metric (Basic Stats or Percentiles)",
+                    "type": "STRING"
+                },
+                "total_tweets": {
+                    "name": "total_tweets",
+                    "description": "Total number of tweets in the dataset",
+                    "type": "INT64"
+                },
+                "tweets_with_toxicity": {
+                    "name": "tweets_with_toxicity",
+                    "description": "Number of tweets with valid toxicity scores",
+                    "type": "INT64"
+                },
+                "mean_toxicity": {
+                    "name": "mean_toxicity",
+                    "description": "Average toxicity score across all tweets",
+                    "type": "FLOAT64"
+                },
+                "stddev_toxicity": {
+                    "name": "stddev_toxicity",
+                    "description": "Standard deviation of toxicity scores",
+                    "type": "FLOAT64"
+                },
+                "min_toxicity": {
+                    "name": "min_toxicity",
+                    "description": "Minimum toxicity score",
+                    "type": "FLOAT64"
+                },
+                "max_toxicity": {
+                    "name": "max_toxicity",
+                    "description": "Maximum toxicity score",
+                    "type": "FLOAT64"
+                },
+                "p10": {
+                    "name": "p10",
+                    "description": "10th percentile toxicity score",
+                    "type": "FLOAT64"
+                },
+                "p25": {
+                    "name": "p25",
+                    "description": "25th percentile toxicity score",
+                    "type": "FLOAT64"
+                },
+                "median": {
+                    "name": "median",
+                    "description": "Median (50th percentile) toxicity score",
+                    "type": "FLOAT64"
+                },
+                "p75": {
+                    "name": "p75",
+                    "description": "75th percentile toxicity score",
+                    "type": "FLOAT64"
+                },
+                "p90": {
+                    "name": "p90",
+                    "description": "90th percentile toxicity score",
+                    "type": "FLOAT64"
+                },
+                "p95": {
+                    "name": "p95",
+                    "description": "95th percentile toxicity score",
+                    "type": "FLOAT64"
+                },
+                "p99": {
+                    "name": "p99",
+                    "description": "99th percentile toxicity score",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.network_climate_users": {
+            "name": "network_climate_users",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.network_climate_users",
+            "description": "Network of user-to-user interactions specifically within climate-related discussions, filtered to include only interactions on climate topics.\n",
+            "columns": {
+                "source": {
+                    "name": "source",
+                    "description": "Source user (screen name)",
+                    "type": "STRING"
+                },
+                "target": {
+                    "name": "target",
+                    "description": "Target user (screen name)",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "Start month of the aggregation period",
+                    "type": "TIMESTAMP"
+                },
+                "weight": {
+                    "name": "weight",
+                    "description": "Count of interactions between source and target",
+                    "type": "INT64"
+                },
+                "sum_toxicity": {
+                    "name": "sum_toxicity",
+                    "description": "Sum of toxicity scores for the interactions",
+                    "type": "FLOAT64"
+                },
+                "avg_toxicity": {
+                    "name": "avg_toxicity",
+                    "description": "Average toxicity score for the interactions",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.tweets_relevant_climate": {
+            "name": "tweets_relevant_climate",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.tweets_relevant_climate",
+            "description": "Climate-related subset of tweets from tweets_relevant_with_predictions, filtered to include only tweets with hashtags categorized as related to climate topics.\n",
+            "columns": {
+                "tweet_id": {
+                    "name": "tweet_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "user_id": {
+                    "name": "user_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "screen_name": {
+                    "name": "screen_name",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "location": {
+                    "name": "location",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "name": {
+                    "name": "name",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "",
+                    "type": "TIMESTAMP"
+                },
+                "type": {
+                    "name": "type",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "refers_to_user_id": {
+                    "name": "refers_to_user_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "refers_to_tweet_id": {
+                    "name": "refers_to_tweet_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "mentioned_ids": {
+                    "name": "mentioned_ids",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "hashtags": {
+                    "name": "hashtags",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "toxicity_score": {
+                    "name": "toxicity_score",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "sentiment_score": {
+                    "name": "sentiment_score",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "aggregated_categories": {
+                    "name": "aggregated_categories",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.network_migration_users": {
+            "name": "network_migration_users",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.network_migration_users",
+            "description": "Network of user-to-user interactions specifically within migration-related discussions, filtered to include only interactions on migration and refugee topics.\n",
+            "columns": {
+                "source": {
+                    "name": "source",
+                    "description": "Source user (screen name)",
+                    "type": "STRING"
+                },
+                "target": {
+                    "name": "target",
+                    "description": "Target user (screen name)",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "Start month of the aggregation period",
+                    "type": "TIMESTAMP"
+                },
+                "weight": {
+                    "name": "weight",
+                    "description": "Count of interactions between source and target",
+                    "type": "INT64"
+                },
+                "sum_toxicity": {
+                    "name": "sum_toxicity",
+                    "description": "Sum of toxicity scores for the interactions",
+                    "type": "FLOAT64"
+                },
+                "avg_toxicity": {
+                    "name": "avg_toxicity",
+                    "description": "Average toxicity score for the interactions",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.tweets_relevant_migration": {
+            "name": "tweets_relevant_migration",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.tweets_relevant_migration",
+            "description": "Migration-related subset of tweets from tweets_relevant_with_predictions, filtered to include only tweets with hashtags categorized as related to migration and refugee topics.",
+            "columns": {
+                "tweet_id": {
+                    "name": "tweet_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "user_id": {
+                    "name": "user_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "screen_name": {
+                    "name": "screen_name",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "location": {
+                    "name": "location",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "name": {
+                    "name": "name",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "",
+                    "type": "TIMESTAMP"
+                },
+                "type": {
+                    "name": "type",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "refers_to_user_id": {
+                    "name": "refers_to_user_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "refers_to_tweet_id": {
+                    "name": "refers_to_tweet_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "mentioned_ids": {
+                    "name": "mentioned_ids",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "hashtags": {
+                    "name": "hashtags",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "toxicity_score": {
+                    "name": "toxicity_score",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "sentiment_score": {
+                    "name": "sentiment_score",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "aggregated_categories": {
+                    "name": "aggregated_categories",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.tweets_relevant_with_predictions": {
+            "name": "tweets_relevant_with_predictions",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.tweets_relevant_with_predictions",
+            "description": "Enhanced version of tweets_relevant_all that includes sentiment and toxicity predictions, user information, and categorization based on hashtags used.\n",
+            "columns": {
+                "tweet_id": {
+                    "name": "tweet_id",
+                    "description": "Unique identifier for the tweet",
+                    "type": "STRING"
+                },
+                "user_id": {
+                    "name": "user_id",
+                    "description": "User ID of the tweet author",
+                    "type": "STRING"
+                },
+                "screen_name": {
+                    "name": "screen_name",
+                    "description": "Twitter handle of the tweet author",
+                    "type": "STRING"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "Language of the user profile",
+                    "type": "STRING"
+                },
+                "location": {
+                    "name": "location",
+                    "description": "User-provided location",
+                    "type": "STRING"
+                },
+                "name": {
+                    "name": "name",
+                    "description": "Display name of the user",
+                    "type": "STRING"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "Timestamp when the tweet was created",
+                    "type": "TIMESTAMP"
+                },
+                "type": {
+                    "name": "type",
+                    "description": "Type of tweet (original, reply, retweet, etc.)",
+                    "type": "STRING"
+                },
+                "refers_to_user_id": {
+                    "name": "refers_to_user_id",
+                    "description": "User ID being referred to (for replies)",
+                    "type": "STRING"
+                },
+                "refers_to_tweet_id": {
+                    "name": "refers_to_tweet_id",
+                    "description": "Tweet ID being referred to (for replies or retweets)",
+                    "type": "STRING"
+                },
+                "mentioned_ids": {
+                    "name": "mentioned_ids",
+                    "description": "Array of user IDs mentioned in the tweet",
+                    "type": "ARRAY<STRING>"
+                },
+                "hashtags": {
+                    "name": "hashtags",
+                    "description": "Array of hashtags used in the tweet",
+                    "type": "ARRAY<STRING>"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "Text content of the tweet",
+                    "type": "STRING"
+                },
+                "toxicity_score": {
+                    "name": "toxicity_score",
+                    "description": "Toxicity score of the tweet content",
+                    "type": "FLOAT64"
+                },
+                "sentiment_score": {
+                    "name": "sentiment_score",
+                    "description": "Sentiment score of the tweet content",
+                    "type": "FLOAT64"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "Political party of the author (if applicable)",
+                    "type": "STRING"
+                },
+                "aggregated_categories": {
+                    "name": "aggregated_categories",
+                    "description": "Array of categories associated with the hashtags in the tweet",
+                    "type": "ARRAY<STRING>"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.tweets_relevant_all": {
+            "name": "tweets_relevant_all",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.tweets_relevant_all",
+            "description": "A curated list of tweets that are relevant to the analysis of political hashtags. Includes tweets that are tagged with a hashtag, and tweets that are referenced by other tweets tagged with the same hashtag.\n",
+            "columns": {
+                "tweet_id": {
+                    "name": "tweet_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "user_id": {
+                    "name": "user_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "source_application": {
+                    "name": "source_application",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "retweet_count": {
+                    "name": "retweet_count",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "favourite_count": {
+                    "name": "favourite_count",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "type": {
+                    "name": "type",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "hashtags": {
+                    "name": "hashtags",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "urls": {
+                    "name": "urls",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "mentioned_ids": {
+                    "name": "mentioned_ids",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "raw_text": {
+                    "name": "raw_text",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "refers_to": {
+                    "name": "refers_to",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "created_at_date": {
+                    "name": "created_at_date",
+                    "description": "",
+                    "type": "DATE"
+                },
+                "recorded_at_date": {
+                    "name": "recorded_at_date",
+                    "description": "",
+                    "type": "DATE"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "",
+                    "type": "TIMESTAMP"
+                },
+                "recorded_at": {
+                    "name": "recorded_at",
+                    "description": "",
+                    "type": "TIMESTAMP"
+                },
+                "refers_to_user_id": {
+                    "name": "refers_to_user_id",
+                    "description": "",
+                    "type": "STRING"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_10_staging.00_interactions_with_referrers": {
+            "name": "00_interactions_with_referrers",
+            "schema": "twitter_analysis_10_staging",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_10_staging.00_interactions_with_referrers",
+            "description": "Enhanced version of the interactions table that includes information about the users being referenced in each interaction. Adds refers_to_user_id by joining back to the interactions table.\n",
+            "columns": {
+                "tweet_id": {
+                    "name": "tweet_id",
+                    "description": "Unique identifier for the tweet",
+                    "type": "STRING"
+                },
+                "user_id": {
+                    "name": "user_id",
+                    "description": "User who created the tweet",
+                    "type": "STRING"
+                },
+                "source_application": {
+                    "name": "source_application",
+                    "description": "Application used to post tweet",
+                    "type": "STRING"
+                },
+                "retweet_count": {
+                    "name": "retweet_count",
+                    "description": "Number of retweets",
+                    "type": "INT64"
+                },
+                "favourite_count": {
+                    "name": "favourite_count",
+                    "description": "Number of likes/favourites",
+                    "type": "INT64"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "Tweet language",
+                    "type": "STRING"
+                },
+                "type": {
+                    "name": "type",
+                    "description": "Type of interaction (tweet, retweet, etc)",
+                    "type": "STRING"
+                },
+                "hashtags": {
+                    "name": "hashtags",
+                    "description": "Array of hashtags used",
+                    "type": "ARRAY<STRING>"
+                },
+                "urls": {
+                    "name": "urls",
+                    "description": "Array of URLs included",
+                    "type": "ARRAY<STRING>"
+                },
+                "mentioned_ids": {
+                    "name": "mentioned_ids",
+                    "description": "Array of mentioned user IDs",
+                    "type": "ARRAY<STRING>"
+                },
+                "raw_text": {
+                    "name": "raw_text",
+                    "description": "Original unprocessed tweet text",
+                    "type": "STRING"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "Cleaned tweet text with URLs removed",
+                    "type": "STRING"
+                },
+                "refers_to": {
+                    "name": "refers_to",
+                    "description": "ID of referenced tweet if reply/quote",
+                    "type": "STRING"
+                },
+                "created_at_date": {
+                    "name": "created_at_date",
+                    "description": "Date tweet was created",
+                    "type": "DATE"
+                },
+                "recorded_at_date": {
+                    "name": "recorded_at_date",
+                    "description": "Date tweet was recorded",
+                    "type": "DATE"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "Timestamp of tweet creation",
+                    "type": "TIMESTAMP"
+                },
+                "recorded_at": {
+                    "name": "recorded_at",
+                    "description": "Timestamp when tweet was recorded",
+                    "type": "TIMESTAMP"
+                },
+                "refers_to_user_id": {
+                    "name": "refers_to_user_id",
+                    "description": "User ID of the author of the referenced tweet",
+                    "type": "STRING"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source_python.toxicity_predictions": {
+            "name": "toxicity_predictions",
+            "schema": "twitter_analysis_00_source_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source_python.toxicity_predictions",
+            "description": "",
+            "columns": {
+                "tweet_id": {
+                    "name": "tweet_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "user_id": {
+                    "name": "user_id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "",
+                    "type": "TIMESTAMP"
+                },
+                "toxicity_score": {
+                    "name": "toxicity_score",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "sentiment_score": {
+                    "name": "sentiment_score",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "positive_probability": {
+                    "name": "positive_probability",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "negative_probability": {
+                    "name": "negative_probability",
+                    "description": "",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source.interactions": {
+            "name": "interactions",
+            "schema": "twitter_analysis_00_source",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source.interactions",
+            "description": "Base model for Twitter interactions, containing cleaned and typed data from raw tweets. Includes tweets from 2020-2021 in German and English languages.\n",
+            "columns": {
+                "tweet_id": {
+                    "name": "tweet_id",
+                    "description": "Unique identifier for the tweet",
+                    "type": "STRING"
+                },
+                "user_id": {
+                    "name": "user_id",
+                    "description": "User who created the tweet",
+                    "type": "STRING"
+                },
+                "source_application": {
+                    "name": "source_application",
+                    "description": "Application used to post tweet",
+                    "type": "STRING"
+                },
+                "retweet_count": {
+                    "name": "retweet_count",
+                    "description": "Number of retweets",
+                    "type": "INT64"
+                },
+                "favourite_count": {
+                    "name": "favourite_count",
+                    "description": "Number of likes/favourites",
+                    "type": "INT64"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "Tweet language",
+                    "type": "STRING"
+                },
+                "type": {
+                    "name": "type",
+                    "description": "Type of interaction (tweet, retweet, etc)",
+                    "type": "STRING"
+                },
+                "hashtags": {
+                    "name": "hashtags",
+                    "description": "Array of hashtags used",
+                    "type": "ARRAY<STRING>"
+                },
+                "urls": {
+                    "name": "urls",
+                    "description": "Array of URLs included",
+                    "type": "ARRAY<STRING>"
+                },
+                "mentioned_ids": {
+                    "name": "mentioned_ids",
+                    "description": "Array of mentioned user IDs",
+                    "type": "ARRAY<STRING>"
+                },
+                "raw_text": {
+                    "name": "raw_text",
+                    "description": "Original unprocessed tweet text",
+                    "type": "STRING"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "Cleaned tweet text with URLs removed",
+                    "type": "STRING"
+                },
+                "refers_to": {
+                    "name": "refers_to",
+                    "description": "ID of referenced tweet if reply/quote",
+                    "type": "STRING"
+                },
+                "created_at_date": {
+                    "name": "created_at_date",
+                    "description": "Date tweet was created",
+                    "type": "DATE"
+                },
+                "recorded_at_date": {
+                    "name": "recorded_at_date",
+                    "description": "Date tweet was recorded",
+                    "type": "DATE"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "Timestamp of tweet creation",
+                    "type": "TIMESTAMP"
+                },
+                "recorded_at": {
+                    "name": "recorded_at",
+                    "description": "Timestamp when tweet was recorded",
+                    "type": "TIMESTAMP"
+                },
+                "row_num": {
+                    "name": "row_num",
+                    "description": "",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_10_staging.01_political_users": {
+            "name": "01_political_users",
+            "schema": "twitter_analysis_10_staging",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_10_staging.01_political_users",
+            "description": "Matches Twitter users with known German politicians based on either Twitter handle or user ID. Combines user information with political metadata from the EPI network.\n",
+            "columns": {
+                "user_id": {
+                    "name": "user_id",
+                    "description": "Twitter user ID",
+                    "type": "STRING"
+                },
+                "screen_name": {
+                    "name": "screen_name",
+                    "description": "Twitter username (lowercase)",
+                    "type": "STRING"
+                },
+                "name": {
+                    "name": "name",
+                    "description": "Display name",
+                    "type": "STRING"
+                },
+                "description": {
+                    "name": "description",
+                    "description": "Profile description",
+                    "type": "STRING"
+                },
+                "location": {
+                    "name": "location",
+                    "description": "User location",
+                    "type": "STRING"
+                },
+                "url": {
+                    "name": "url",
+                    "description": "Profile URL",
+                    "type": "STRING"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "Account creation timestamp",
+                    "type": "TIMESTAMP"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "Account language",
+                    "type": "STRING"
+                },
+                "recorded_at": {
+                    "name": "recorded_at",
+                    "description": "When user data was recorded",
+                    "type": "TIMESTAMP"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "Political party affiliation from EPI data",
+                    "type": "STRING"
+                },
+                "twitter_name": {
+                    "name": "twitter_name",
+                    "description": "Official Twitter name from EPI data",
+                    "type": "STRING"
+                },
+                "twitter_handle": {
+                    "name": "twitter_handle",
+                    "description": "Official Twitter handle from EPI data (lowercase)",
+                    "type": "STRING"
+                },
+                "wikidata_id": {
+                    "name": "wikidata_id",
+                    "description": "Wikidata ID from EPI data",
+                    "type": "STRING"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source.users": {
+            "name": "users",
+            "schema": "twitter_analysis_00_source",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source.users",
+            "description": "Base model for Twitter users data, containing cleaned and typed information from raw users. Only includes users created before end of 2021.\n",
+            "columns": {
+                "user_id": {
+                    "name": "user_id",
+                    "description": "Unique identifier for the user",
+                    "type": "STRING"
+                },
+                "name": {
+                    "name": "name",
+                    "description": "Display name of the user",
+                    "type": "STRING"
+                },
+                "screen_name": {
+                    "name": "screen_name",
+                    "description": "Lowercase username of the user",
+                    "type": "STRING"
+                },
+                "location": {
+                    "name": "location",
+                    "description": "User defined location",
+                    "type": "STRING"
+                },
+                "description": {
+                    "name": "description",
+                    "description": "User profile description",
+                    "type": "STRING"
+                },
+                "url": {
+                    "name": "url",
+                    "description": "Profile URL",
+                    "type": "STRING"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "User language setting",
+                    "type": "STRING"
+                },
+                "verified": {
+                    "name": "verified",
+                    "description": "Boolean indicating if user is verified",
+                    "type": "BOOL"
+                },
+                "followers_count": {
+                    "name": "followers_count",
+                    "description": "Number of followers",
+                    "type": "INT64"
+                },
+                "friends_count": {
+                    "name": "friends_count",
+                    "description": "Number of users being followed",
+                    "type": "INT64"
+                },
+                "listed_count": {
+                    "name": "listed_count",
+                    "description": "Number of lists containing this user",
+                    "type": "INT64"
+                },
+                "statuses_count": {
+                    "name": "statuses_count",
+                    "description": "Total number of tweets",
+                    "type": "INT64"
+                },
+                "favourites_count": {
+                    "name": "favourites_count",
+                    "description": "Number of tweets liked",
+                    "type": "INT64"
+                },
+                "created_at_date": {
+                    "name": "created_at_date",
+                    "description": "Date user account was created",
+                    "type": "DATE"
+                },
+                "recorded_at_date": {
+                    "name": "recorded_at_date",
+                    "description": "Date user data was recorded",
+                    "type": "DATE"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "Timestamp when user was created",
+                    "type": "TIMESTAMP"
+                },
+                "recorded_at": {
+                    "name": "recorded_at",
+                    "description": "Timestamp when user was recorded",
+                    "type": "TIMESTAMP"
+                },
+                "row_num": {
+                    "name": "row_num",
+                    "description": "",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_by_party": {
+            "name": "toxicity_by_party",
+            "schema": "twitter_analysis_30_stats",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats.toxicity_by_party",
+            "description": "Analyzes average toxicity scores by political party and month, showing both sent and received toxicity metrics to compare discourse behaviors across different political groups over time.\n",
+            "columns": {
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated",
+                    "type": "unknown"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "Political party affiliation",
+                    "type": "unknown"
+                },
+                "avg_tox_sent": {
+                    "name": "avg_tox_sent",
+                    "description": "Average toxicity of interactions sent by members of this party",
+                    "type": "unknown"
+                },
+                "avg_tox_received": {
+                    "name": "avg_tox_received",
+                    "description": "Average toxicity of interactions received by members of this party",
+                    "type": "unknown"
+                },
+                "avg_tox": {
+                    "name": "avg_tox",
+                    "description": "Overall average toxicity for all interactions involving this party",
+                    "type": "unknown"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_network_analysis.nodes_all": {
+            "name": "nodes_all",
+            "schema": "twitter_analysis_30_network_analysis",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_network_analysis.nodes_all",
+            "description": "Enhanced version of node_metrics_all that includes political party affiliation for each node (Twitter user) in the complete network analysis.\n",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "Unique identifier for each row in the table",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated",
+                    "type": "DATE"
+                },
+                "node_id": {
+                    "name": "node_id",
+                    "description": "Twitter handle serving as the node identifier in the network",
+                    "type": "STRING"
+                },
+                "pagerank": {
+                    "name": "pagerank",
+                    "description": "PageRank score indicating the node's importance in the network",
+                    "type": "FLOAT64"
+                },
+                "degree_in": {
+                    "name": "degree_in",
+                    "description": "Number of incoming connections (users who interacted with this node)",
+                    "type": "FLOAT64"
+                },
+                "degree_out": {
+                    "name": "degree_out",
+                    "description": "Number of outgoing connections (users this node interacted with)",
+                    "type": "FLOAT64"
+                },
+                "betweenness": {
+                    "name": "betweenness",
+                    "description": "Betweenness centrality measuring how often the node lies on shortest paths",
+                    "type": "FLOAT64"
+                },
+                "clustering": {
+                    "name": "clustering",
+                    "description": "Clustering coefficient measuring how tightly connected the node's neighbors are",
+                    "type": "FLOAT64"
+                },
+                "triangles": {
+                    "name": "triangles",
+                    "description": "Count of triangles (closed triplets) that include this node",
+                    "type": "INT64"
+                },
+                "core_number": {
+                    "name": "core_number",
+                    "description": "K-core number indicating the node's position in network shells",
+                    "type": "INT64"
+                },
+                "interactions_sent": {
+                    "name": "interactions_sent",
+                    "description": "Total number of interactions initiated by this node",
+                    "type": "INT64"
+                },
+                "interactions_received": {
+                    "name": "interactions_received",
+                    "description": "Total number of interactions received by this node",
+                    "type": "INT64"
+                },
+                "interactions_total": {
+                    "name": "interactions_total",
+                    "description": "Sum of all interactions this node was involved in",
+                    "type": "INT64"
+                },
+                "toxicity_sent": {
+                    "name": "toxicity_sent",
+                    "description": "Total toxicity score of interactions sent by this node",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received": {
+                    "name": "toxicity_received",
+                    "description": "Total toxicity score of interactions received by this node",
+                    "type": "FLOAT64"
+                },
+                "toxicity_sent_avg": {
+                    "name": "toxicity_sent_avg",
+                    "description": "Average toxicity score of interactions sent by this node",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received_avg": {
+                    "name": "toxicity_received_avg",
+                    "description": "Average toxicity score of interactions received by this node",
+                    "type": "FLOAT64"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "Political party affiliation of the node, if the user is a politician",
+                    "type": "STRING"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_network_analysis.nodes_climate": {
+            "name": "nodes_climate",
+            "schema": "twitter_analysis_30_network_analysis",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_network_analysis.nodes_climate",
+            "description": "Enhanced version of node_metrics_climate that includes political party affiliation for each node (Twitter user) in the climate discussion subnetwork.\n",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "Unique identifier for each row in the table",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated",
+                    "type": "DATE"
+                },
+                "node_id": {
+                    "name": "node_id",
+                    "description": "Twitter handle serving as the node identifier in the network",
+                    "type": "STRING"
+                },
+                "pagerank": {
+                    "name": "pagerank",
+                    "description": "PageRank score indicating the node's importance in the climate discussion network",
+                    "type": "FLOAT64"
+                },
+                "degree_in": {
+                    "name": "degree_in",
+                    "description": "Number of incoming connections in climate-related discussions",
+                    "type": "FLOAT64"
+                },
+                "degree_out": {
+                    "name": "degree_out",
+                    "description": "Number of outgoing connections in climate-related discussions",
+                    "type": "FLOAT64"
+                },
+                "betweenness": {
+                    "name": "betweenness",
+                    "description": "Betweenness centrality in the climate discussion subnetwork",
+                    "type": "FLOAT64"
+                },
+                "clustering": {
+                    "name": "clustering",
+                    "description": "Clustering coefficient within the climate discussion subnetwork",
+                    "type": "FLOAT64"
+                },
+                "triangles": {
+                    "name": "triangles",
+                    "description": "Count of triangles in the climate discussion subnetwork that include this node",
+                    "type": "INT64"
+                },
+                "core_number": {
+                    "name": "core_number",
+                    "description": "K-core number in the climate discussion subnetwork",
+                    "type": "INT64"
+                },
+                "interactions_sent": {
+                    "name": "interactions_sent",
+                    "description": "Number of climate-related interactions sent by this node",
+                    "type": "INT64"
+                },
+                "interactions_received": {
+                    "name": "interactions_received",
+                    "description": "Number of climate-related interactions received by this node",
+                    "type": "INT64"
+                },
+                "interactions_total": {
+                    "name": "interactions_total",
+                    "description": "Total climate-related interactions this node was involved in",
+                    "type": "INT64"
+                },
+                "toxicity_sent": {
+                    "name": "toxicity_sent",
+                    "description": "Total toxicity score of climate-related interactions sent by this node",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received": {
+                    "name": "toxicity_received",
+                    "description": "Total toxicity score of climate-related interactions received by this node",
+                    "type": "FLOAT64"
+                },
+                "toxicity_sent_avg": {
+                    "name": "toxicity_sent_avg",
+                    "description": "Average toxicity score of climate-related interactions sent by this node",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received_avg": {
+                    "name": "toxicity_received_avg",
+                    "description": "Average toxicity score of climate-related interactions received by this node",
+                    "type": "FLOAT64"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "Political party affiliation of the node, if the user is a politician",
+                    "type": "STRING"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_network_analysis.nodes_migration": {
+            "name": "nodes_migration",
+            "schema": "twitter_analysis_30_network_analysis",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_network_analysis.nodes_migration",
+            "description": "Enhanced version of node_metrics_migration that includes political party affiliation for each node (Twitter user) in the migration discussion subnetwork.\n",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "Unique identifier for each row in the table",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated",
+                    "type": "DATE"
+                },
+                "node_id": {
+                    "name": "node_id",
+                    "description": "Twitter handle serving as the node identifier in the network",
+                    "type": "STRING"
+                },
+                "pagerank": {
+                    "name": "pagerank",
+                    "description": "PageRank score indicating the node's importance in the migration discussion network",
+                    "type": "FLOAT64"
+                },
+                "degree_in": {
+                    "name": "degree_in",
+                    "description": "Number of incoming connections in migration-related discussions",
+                    "type": "FLOAT64"
+                },
+                "degree_out": {
+                    "name": "degree_out",
+                    "description": "Number of outgoing connections in migration-related discussions",
+                    "type": "FLOAT64"
+                },
+                "betweenness": {
+                    "name": "betweenness",
+                    "description": "Betweenness centrality in the migration discussion subnetwork",
+                    "type": "FLOAT64"
+                },
+                "clustering": {
+                    "name": "clustering",
+                    "description": "Clustering coefficient within the migration discussion subnetwork",
+                    "type": "FLOAT64"
+                },
+                "triangles": {
+                    "name": "triangles",
+                    "description": "Count of triangles in the migration discussion subnetwork that include this node",
+                    "type": "INT64"
+                },
+                "core_number": {
+                    "name": "core_number",
+                    "description": "K-core number in the migration discussion subnetwork",
+                    "type": "INT64"
+                },
+                "interactions_sent": {
+                    "name": "interactions_sent",
+                    "description": "Number of migration-related interactions sent by this node",
+                    "type": "INT64"
+                },
+                "interactions_received": {
+                    "name": "interactions_received",
+                    "description": "Number of migration-related interactions received by this node",
+                    "type": "INT64"
+                },
+                "interactions_total": {
+                    "name": "interactions_total",
+                    "description": "Total migration-related interactions this node was involved in",
+                    "type": "INT64"
+                },
+                "toxicity_sent": {
+                    "name": "toxicity_sent",
+                    "description": "Total toxicity score of migration-related interactions sent by this node",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received": {
+                    "name": "toxicity_received",
+                    "description": "Total toxicity score of migration-related interactions received by this node",
+                    "type": "FLOAT64"
+                },
+                "toxicity_sent_avg": {
+                    "name": "toxicity_sent_avg",
+                    "description": "Average toxicity score of migration-related interactions sent by this node",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received_avg": {
+                    "name": "toxicity_received_avg",
+                    "description": "Average toxicity score of migration-related interactions received by this node",
+                    "type": "FLOAT64"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "Political party affiliation of the node, if the user is a politician",
+                    "type": "STRING"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source.ext_epi_netz_de": {
+            "name": "ext_epi_netz_de",
+            "schema": "twitter_analysis_00_source",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source.ext_epi_netz_de",
+            "description": "Processed version of the `ext_epi_netz_de` dataset containing standardized and cleaned information  on German politicians and their Twitter presence.\n",
+            "columns": {
+                "user_id": {
+                    "name": "user_id",
+                    "description": "Unique Twitter user ID of the politician.",
+                    "type": "STRING"
+                },
+                "official_name": {
+                    "name": "official_name",
+                    "description": "Full name of the politician.",
+                    "type": "STRING"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "Political party affiliation of the politician.",
+                    "type": "STRING"
+                },
+                "region": {
+                    "name": "region",
+                    "description": "Geographic region represented by the politician.",
+                    "type": "STRING"
+                },
+                "institution": {
+                    "name": "institution",
+                    "description": "The political institution to which the politician belongs.",
+                    "type": "STRING"
+                },
+                "office": {
+                    "name": "office",
+                    "description": "Political office held by the politician.",
+                    "type": "STRING"
+                },
+                "twitter_name": {
+                    "name": "twitter_name",
+                    "description": "Twitter display name of the politician.",
+                    "type": "STRING"
+                },
+                "twitter_handle": {
+                    "name": "twitter_handle",
+                    "description": "Twitter handle (username) in lowercase.",
+                    "type": "STRING"
+                },
+                "year_of_birth": {
+                    "name": "year_of_birth",
+                    "description": "Year of birth of the politician.",
+                    "type": "INT64"
+                },
+                "abgeordnetenwatch_id": {
+                    "name": "abgeordnetenwatch_id",
+                    "description": "ID from the abgeordnetenwatch.de platform.",
+                    "type": "INT64"
+                },
+                "gender": {
+                    "name": "gender",
+                    "description": "Gender of the politician.",
+                    "type": "STRING"
+                },
+                "wikidata_id": {
+                    "name": "wikidata_id",
+                    "description": "Wikidata entity ID for the politician.",
+                    "type": "STRING"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.hashtags_categories_aggregated": {
+            "name": "hashtags_categories_aggregated",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.hashtags_categories_aggregated",
+            "description": "Aggregated view of hashtags with their usage statistics and an array of categories. Categories are aggregated from semicolon-delimited lists into arrays.\n",
+            "columns": {
+                "hashtag": {
+                    "name": "hashtag",
+                    "description": "Individual hashtag",
+                    "type": "STRING"
+                },
+                "usage_count": {
+                    "name": "usage_count",
+                    "description": "Number of times the hashtag was used",
+                    "type": "INT64"
+                },
+                "unique_users": {
+                    "name": "unique_users",
+                    "description": "Count of unique users who used this hashtag",
+                    "type": "INT64"
+                },
+                "politician_users": {
+                    "name": "politician_users",
+                    "description": "Count of politicians who used this hashtag",
+                    "type": "INT64"
+                },
+                "first_used_at": {
+                    "name": "first_used_at",
+                    "description": "Timestamp of earliest usage",
+                    "type": "TIMESTAMP"
+                },
+                "last_used_at": {
+                    "name": "last_used_at",
+                    "description": "Timestamp of most recent usage",
+                    "type": "TIMESTAMP"
+                },
+                "pct_political_users": {
+                    "name": "pct_political_users",
+                    "description": "Percentage of users who are politicians",
+                    "type": "FLOAT64"
+                },
+                "days_active": {
+                    "name": "days_active",
+                    "description": "Number of days between first and last usage",
+                    "type": "INT64"
+                },
+                "categories": {
+                    "name": "categories",
+                    "description": "Array of categories assigned to the hashtag",
+                    "type": "ARRAY<STRING>"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats_buckup.59_hashtag_categories_and_counts": {
+            "name": "59_hashtag_categories_and_counts",
+            "schema": "twitter_analysis_30_stats_buckup",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats_buckup.59_hashtag_categories_and_counts",
+            "description": "Aggregated statistics about hashtag categories, including total usage counts, unique users, and politician users for each category.\n",
+            "columns": {
+                "category": {
+                    "name": "category",
+                    "description": "The hashtag category name",
+                    "type": "STRING"
+                },
+                "total_usage_count": {
+                    "name": "total_usage_count",
+                    "description": "Sum of usage count for all hashtags in this category",
+                    "type": "INT64"
+                },
+                "total_unique_users": {
+                    "name": "total_unique_users",
+                    "description": "Total number of unique users across all hashtags in this category",
+                    "type": "INT64"
+                },
+                "total_politician_users": {
+                    "name": "total_politician_users",
+                    "description": "Total number of politician users across all hashtags in this category",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats_buckup.example_category_overlapped_hashtags": {
+            "name": "example_category_overlapped_hashtags",
+            "schema": "twitter_analysis_30_stats_buckup",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats_buckup.example_category_overlapped_hashtags",
+            "description": "Analysis of hashtags that appear in multiple categories, specifically focusing on  migration and climate change categories to identify overlapping discourse.\n",
+            "columns": {
+                "hashtag": {
+                    "name": "hashtag",
+                    "description": "The hashtag being analyzed",
+                    "type": "STRING"
+                },
+                "categories": {
+                    "name": "categories",
+                    "description": "Comma-separated list of categories this hashtag belongs to",
+                    "type": "STRING"
+                },
+                "category_count": {
+                    "name": "category_count",
+                    "description": "Number of distinct categories the hashtag belongs to",
+                    "type": "INT64"
+                },
+                "total_usage_count": {
+                    "name": "total_usage_count",
+                    "description": "Total usage count of the hashtag across all categories",
+                    "type": "INT64"
+                },
+                "total_unique_users": {
+                    "name": "total_unique_users",
+                    "description": "Total number of unique users who used the hashtag",
+                    "type": "INT64"
+                },
+                "total_politician_users": {
+                    "name": "total_politician_users",
+                    "description": "Total number of politicians who used the hashtag",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats_buckup.top25hashtags_climate_related": {
+            "name": "top25hashtags_climate_related",
+            "schema": "twitter_analysis_30_stats_buckup",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats_buckup.top25hashtags_climate_related",
+            "description": "Top 25 climate-related hashtags based on politician usage, filtered by categories relevant to climate change and environmental topics.\n",
+            "columns": {
+                "hashtag": {
+                    "name": "hashtag",
+                    "description": "The hashtag being analyzed",
+                    "type": "STRING"
+                },
+                "total_usage_count": {
+                    "name": "total_usage_count",
+                    "description": "Total usage count of the hashtag across climate-related categories",
+                    "type": "INT64"
+                },
+                "total_unique_users": {
+                    "name": "total_unique_users",
+                    "description": "Total number of unique users who used the hashtag",
+                    "type": "INT64"
+                },
+                "total_politician_users": {
+                    "name": "total_politician_users",
+                    "description": "Total number of politicians who used the hashtag",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_30_stats_buckup.top25hashtags_migration_related": {
+            "name": "top25hashtags_migration_related",
+            "schema": "twitter_analysis_30_stats_buckup",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_30_stats_buckup.top25hashtags_migration_related",
+            "description": "Top 25 migration-related hashtags based on politician usage, filtered by categories relevant to migration, refugees, and related social and political topics.\n",
+            "columns": {
+                "hashtag": {
+                    "name": "hashtag",
+                    "description": "The hashtag being analyzed",
+                    "type": "STRING"
+                },
+                "total_usage_count": {
+                    "name": "total_usage_count",
+                    "description": "Total usage count of the hashtag across migration-related categories",
+                    "type": "INT64"
+                },
+                "total_unique_users": {
+                    "name": "total_unique_users",
+                    "description": "Total number of unique users who used the hashtag",
+                    "type": "INT64"
+                },
+                "total_politician_users": {
+                    "name": "total_politician_users",
+                    "description": "Total number of politicians who used the hashtag",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_20_curated.hashtags_categories_exploded": {
+            "name": "hashtags_categories_exploded",
+            "schema": "twitter_analysis_20_curated",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_20_curated.hashtags_categories_exploded",
+            "description": "Exploded view of hashtag categories where each hashtag-category pair is on a separate row. Categories are split from semicolon-delimited lists.\n",
+            "columns": {
+                "hashtag": {
+                    "name": "hashtag",
+                    "description": "Individual hashtag",
+                    "type": "STRING"
+                },
+                "usage_count": {
+                    "name": "usage_count",
+                    "description": "Number of times the hashtag was used",
+                    "type": "INT64"
+                },
+                "unique_users": {
+                    "name": "unique_users",
+                    "description": "Count of unique users who used this hashtag",
+                    "type": "INT64"
+                },
+                "politician_users": {
+                    "name": "politician_users",
+                    "description": "Count of politicians who used this hashtag",
+                    "type": "INT64"
+                },
+                "first_used_at": {
+                    "name": "first_used_at",
+                    "description": "Timestamp of earliest usage",
+                    "type": "TIMESTAMP"
+                },
+                "last_used_at": {
+                    "name": "last_used_at",
+                    "description": "Timestamp of most recent usage",
+                    "type": "TIMESTAMP"
+                },
+                "pct_political_users": {
+                    "name": "pct_political_users",
+                    "description": "Percentage of users who are politicians",
+                    "type": "FLOAT64"
+                },
+                "days_active": {
+                    "name": "days_active",
+                    "description": "Number of days between first and last usage",
+                    "type": "INT64"
+                },
+                "category": {
+                    "name": "category",
+                    "description": "Individual category assigned to the hashtag (trimmed)",
+                    "type": "STRING"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.twitter_analysis_00_source.hashtag_categorisation": {
+            "name": "hashtag_categorisation",
+            "schema": "twitter_analysis_00_source",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.twitter_analysis_00_source.hashtag_categorisation",
+            "description": "",
+            "columns": {
+                "hashtag": {
+                    "name": "hashtag",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "usage_count": {
+                    "name": "usage_count",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "unique_users": {
+                    "name": "unique_users",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "politician_users": {
+                    "name": "politician_users",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "first_used_at": {
+                    "name": "first_used_at",
+                    "description": "",
+                    "type": "TIMESTAMP"
+                },
+                "last_used_at": {
+                    "name": "last_used_at",
+                    "description": "",
+                    "type": "TIMESTAMP"
+                },
+                "pct_political_users": {
+                    "name": "pct_political_users",
+                    "description": "",
+                    "type": "FLOAT64"
+                },
+                "days_active": {
+                    "name": "days_active",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "categories": {
+                    "name": "categories",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "confidence": {
+                    "name": "confidence",
+                    "description": "",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        }
+    },
+    "sources": {
+        "grounded-nebula-408412.base_twitter_python.network_node_metrics_all": {
+            "name": "network_node_metrics_all",
+            "schema": "base_twitter_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_python.network_node_metrics_all",
+            "description": "Table containing network analysis metrics for all nodes (users) in the Twitter network, including centrality measures, interaction counts, and toxicity metrics.\n",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "Unique identifier for each row in the table.",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated.",
+                    "type": "DATE"
+                },
+                "node_id": {
+                    "name": "node_id",
+                    "description": "Twitter user ID serving as the node identifier in the network.",
+                    "type": "STRING"
+                },
+                "pagerank": {
+                    "name": "pagerank",
+                    "description": "PageRank score indicating the node's importance in the network.",
+                    "type": "FLOAT64"
+                },
+                "degree_in": {
+                    "name": "degree_in",
+                    "description": "Number of incoming connections (users who interacted with this node).",
+                    "type": "FLOAT64"
+                },
+                "degree_out": {
+                    "name": "degree_out",
+                    "description": "Number of outgoing connections (users this node interacted with).",
+                    "type": "FLOAT64"
+                },
+                "betweenness": {
+                    "name": "betweenness",
+                    "description": "Betweenness centrality measuring how often the node lies on shortest paths.",
+                    "type": "FLOAT64"
+                },
+                "clustering": {
+                    "name": "clustering",
+                    "description": "Clustering coefficient measuring how tightly connected the node's neighbors are.",
+                    "type": "FLOAT64"
+                },
+                "triangles": {
+                    "name": "triangles",
+                    "description": "Count of triangles (closed triplets) that include this node.",
+                    "type": "INT64"
+                },
+                "core_number": {
+                    "name": "core_number",
+                    "description": "K-core number indicating the node's position in network shells.",
+                    "type": "INT64"
+                },
+                "interactions_sent": {
+                    "name": "interactions_sent",
+                    "description": "Total number of interactions initiated by this node.",
+                    "type": "INT64"
+                },
+                "interactions_received": {
+                    "name": "interactions_received",
+                    "description": "Total number of interactions received by this node.",
+                    "type": "INT64"
+                },
+                "interactions_total": {
+                    "name": "interactions_total",
+                    "description": "Sum of all interactions this node was involved in.",
+                    "type": "INT64"
+                },
+                "toxicity_sent": {
+                    "name": "toxicity_sent",
+                    "description": "Total toxicity score of interactions sent by this node.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received": {
+                    "name": "toxicity_received",
+                    "description": "Total toxicity score of interactions received by this node.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_sent_avg": {
+                    "name": "toxicity_sent_avg",
+                    "description": "Average toxicity score of interactions sent by this node.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received_avg": {
+                    "name": "toxicity_received_avg",
+                    "description": "Average toxicity score of interactions received by this node.",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_python.network_node_metrics_climate": {
+            "name": "network_node_metrics_climate",
+            "schema": "base_twitter_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_python.network_node_metrics_climate",
+            "description": "Network metrics for nodes (users) in the climate-related discussion subnetwork, filtered to include only interactions related to climate topics.\n",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "Unique identifier for each row in the table.",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated.",
+                    "type": "DATE"
+                },
+                "node_id": {
+                    "name": "node_id",
+                    "description": "Twitter user ID serving as the node identifier in the network.",
+                    "type": "STRING"
+                },
+                "pagerank": {
+                    "name": "pagerank",
+                    "description": "PageRank score indicating the node's importance in the climate discussion network.",
+                    "type": "FLOAT64"
+                },
+                "degree_in": {
+                    "name": "degree_in",
+                    "description": "Number of incoming connections in climate-related discussions.",
+                    "type": "FLOAT64"
+                },
+                "degree_out": {
+                    "name": "degree_out",
+                    "description": "Number of outgoing connections in climate-related discussions.",
+                    "type": "FLOAT64"
+                },
+                "betweenness": {
+                    "name": "betweenness",
+                    "description": "Betweenness centrality in the climate discussion subnetwork.",
+                    "type": "FLOAT64"
+                },
+                "clustering": {
+                    "name": "clustering",
+                    "description": "Clustering coefficient within the climate discussion subnetwork.",
+                    "type": "FLOAT64"
+                },
+                "triangles": {
+                    "name": "triangles",
+                    "description": "Count of triangles in the climate discussion subnetwork that include this node.",
+                    "type": "INT64"
+                },
+                "core_number": {
+                    "name": "core_number",
+                    "description": "K-core number in the climate discussion subnetwork.",
+                    "type": "INT64"
+                },
+                "interactions_sent": {
+                    "name": "interactions_sent",
+                    "description": "Number of climate-related interactions sent by this node.",
+                    "type": "INT64"
+                },
+                "interactions_received": {
+                    "name": "interactions_received",
+                    "description": "Number of climate-related interactions received by this node.",
+                    "type": "INT64"
+                },
+                "interactions_total": {
+                    "name": "interactions_total",
+                    "description": "Total climate-related interactions this node was involved in.",
+                    "type": "INT64"
+                },
+                "toxicity_sent": {
+                    "name": "toxicity_sent",
+                    "description": "Total toxicity score of climate-related interactions sent by this node.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received": {
+                    "name": "toxicity_received",
+                    "description": "Total toxicity score of climate-related interactions received by this node.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_sent_avg": {
+                    "name": "toxicity_sent_avg",
+                    "description": "Average toxicity score of climate-related interactions sent by this node.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received_avg": {
+                    "name": "toxicity_received_avg",
+                    "description": "Average toxicity score of climate-related interactions received by this node.",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_python.network_node_metrics_migration": {
+            "name": "network_node_metrics_migration",
+            "schema": "base_twitter_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_python.network_node_metrics_migration",
+            "description": "Network metrics for nodes (users) in the migration-related discussion subnetwork, filtered to include only interactions related to migration and refugee topics.\n",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "Unique identifier for each row in the table.",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated.",
+                    "type": "DATE"
+                },
+                "node_id": {
+                    "name": "node_id",
+                    "description": "Twitter user ID serving as the node identifier in the network.",
+                    "type": "STRING"
+                },
+                "pagerank": {
+                    "name": "pagerank",
+                    "description": "PageRank score indicating the node's importance in the migration discussion network.",
+                    "type": "FLOAT64"
+                },
+                "degree_in": {
+                    "name": "degree_in",
+                    "description": "Number of incoming connections in migration-related discussions.",
+                    "type": "FLOAT64"
+                },
+                "degree_out": {
+                    "name": "degree_out",
+                    "description": "Number of outgoing connections in migration-related discussions.",
+                    "type": "FLOAT64"
+                },
+                "betweenness": {
+                    "name": "betweenness",
+                    "description": "Betweenness centrality in the migration discussion subnetwork.",
+                    "type": "FLOAT64"
+                },
+                "clustering": {
+                    "name": "clustering",
+                    "description": "Clustering coefficient within the migration discussion subnetwork.",
+                    "type": "FLOAT64"
+                },
+                "triangles": {
+                    "name": "triangles",
+                    "description": "Count of triangles in the migration discussion subnetwork that include this node.",
+                    "type": "INT64"
+                },
+                "core_number": {
+                    "name": "core_number",
+                    "description": "K-core number in the migration discussion subnetwork.",
+                    "type": "INT64"
+                },
+                "interactions_sent": {
+                    "name": "interactions_sent",
+                    "description": "Number of migration-related interactions sent by this node.",
+                    "type": "INT64"
+                },
+                "interactions_received": {
+                    "name": "interactions_received",
+                    "description": "Number of migration-related interactions received by this node.",
+                    "type": "INT64"
+                },
+                "interactions_total": {
+                    "name": "interactions_total",
+                    "description": "Total migration-related interactions this node was involved in.",
+                    "type": "INT64"
+                },
+                "toxicity_sent": {
+                    "name": "toxicity_sent",
+                    "description": "Total toxicity score of migration-related interactions sent by this node.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received": {
+                    "name": "toxicity_received",
+                    "description": "Total toxicity score of migration-related interactions received by this node.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_sent_avg": {
+                    "name": "toxicity_sent_avg",
+                    "description": "Average toxicity score of migration-related interactions sent by this node.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_received_avg": {
+                    "name": "toxicity_received_avg",
+                    "description": "Average toxicity score of migration-related interactions received by this node.",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_python.network_network_metrics_climate": {
+            "name": "network_network_metrics_climate",
+            "schema": "base_twitter_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_python.network_network_metrics_climate",
+            "description": "Network-level metrics for the climate discussion network, including density, modularity, and other global network properties.\n",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "Unique identifier for each row in the table.",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated.",
+                    "type": "DATE"
+                },
+                "table_name": {
+                    "name": "table_name",
+                    "description": "Name of the table representing the network.",
+                    "type": "STRING"
+                },
+                "nodes": {
+                    "name": "nodes",
+                    "description": "Total number of nodes in the network.",
+                    "type": "INT64"
+                },
+                "edges": {
+                    "name": "edges",
+                    "description": "Total number of edges in the network.",
+                    "type": "INT64"
+                },
+                "density": {
+                    "name": "density",
+                    "description": "Network density (ratio of actual to possible connections).",
+                    "type": "FLOAT64"
+                },
+                "connected_components": {
+                    "name": "connected_components",
+                    "description": "Number of connected components in the network.",
+                    "type": "INT64"
+                },
+                "transitivity": {
+                    "name": "transitivity",
+                    "description": "Global transitivity/clustering coefficient of the network.",
+                    "type": "FLOAT64"
+                },
+                "modularity": {
+                    "name": "modularity",
+                    "description": "Modularity score indicating community structure strength.",
+                    "type": "FLOAT64"
+                },
+                "modularity_classes": {
+                    "name": "modularity_classes",
+                    "description": "Number of communities detected in the network.",
+                    "type": "INT64"
+                },
+                "assortativity": {
+                    "name": "assortativity",
+                    "description": "Degree assortativity coefficient of the network.",
+                    "type": "FLOAT64"
+                },
+                "network_avg_toxicity": {
+                    "name": "network_avg_toxicity",
+                    "description": "Average toxicity score across all interactions in the network.",
+                    "type": "FLOAT64"
+                },
+                "median_node_toxicity": {
+                    "name": "median_node_toxicity",
+                    "description": "Median toxicity score of nodes in the network.",
+                    "type": "FLOAT64"
+                },
+                "max_core_number": {
+                    "name": "max_core_number",
+                    "description": "Maximum k-core number found in the network.",
+                    "type": "INT64"
+                },
+                "avg_core_number": {
+                    "name": "avg_core_number",
+                    "description": "Average k-core number across all nodes.",
+                    "type": "FLOAT64"
+                },
+                "rich_club_coefficient": {
+                    "name": "rich_club_coefficient",
+                    "description": "Rich-club coefficient measuring connectivity among high-degree nodes.",
+                    "type": "FLOAT64"
+                },
+                "average_clustering": {
+                    "name": "average_clustering",
+                    "description": "Average clustering coefficient across all nodes.",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_python.network_network_metrics_migration": {
+            "name": "network_network_metrics_migration",
+            "schema": "base_twitter_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_python.network_network_metrics_migration",
+            "description": "Network-level metrics for the migration discussion network, including density, modularity, and other global network properties.\n",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "Unique identifier for each row in the table.",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated.",
+                    "type": "DATE"
+                },
+                "table_name": {
+                    "name": "table_name",
+                    "description": "Name of the table representing the network.",
+                    "type": "STRING"
+                },
+                "nodes": {
+                    "name": "nodes",
+                    "description": "Total number of nodes in the network.",
+                    "type": "INT64"
+                },
+                "edges": {
+                    "name": "edges",
+                    "description": "Total number of edges in the network.",
+                    "type": "INT64"
+                },
+                "density": {
+                    "name": "density",
+                    "description": "Network density (ratio of actual to possible connections).",
+                    "type": "FLOAT64"
+                },
+                "connected_components": {
+                    "name": "connected_components",
+                    "description": "Number of connected components in the network.",
+                    "type": "INT64"
+                },
+                "transitivity": {
+                    "name": "transitivity",
+                    "description": "Global transitivity/clustering coefficient of the network.",
+                    "type": "FLOAT64"
+                },
+                "modularity": {
+                    "name": "modularity",
+                    "description": "Modularity score indicating community structure strength.",
+                    "type": "FLOAT64"
+                },
+                "modularity_classes": {
+                    "name": "modularity_classes",
+                    "description": "Number of communities detected in the network.",
+                    "type": "INT64"
+                },
+                "assortativity": {
+                    "name": "assortativity",
+                    "description": "Degree assortativity coefficient of the network.",
+                    "type": "FLOAT64"
+                },
+                "network_avg_toxicity": {
+                    "name": "network_avg_toxicity",
+                    "description": "Average toxicity score across all interactions in the network.",
+                    "type": "FLOAT64"
+                },
+                "median_node_toxicity": {
+                    "name": "median_node_toxicity",
+                    "description": "Median toxicity score of nodes in the network.",
+                    "type": "FLOAT64"
+                },
+                "max_core_number": {
+                    "name": "max_core_number",
+                    "description": "Maximum k-core number found in the network.",
+                    "type": "INT64"
+                },
+                "avg_core_number": {
+                    "name": "avg_core_number",
+                    "description": "Average k-core number across all nodes.",
+                    "type": "FLOAT64"
+                },
+                "rich_club_coefficient": {
+                    "name": "rich_club_coefficient",
+                    "description": "Rich-club coefficient measuring connectivity among high-degree nodes.",
+                    "type": "FLOAT64"
+                },
+                "average_clustering": {
+                    "name": "average_clustering",
+                    "description": "Average clustering coefficient across all nodes.",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_python.network_network_metrics_all": {
+            "name": "network_network_metrics_all",
+            "schema": "base_twitter_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_python.network_network_metrics_all",
+            "description": "Network-level metrics for the complete Twitter network, including density, modularity, and other global network properties across all interactions.\n",
+            "columns": {
+                "row_id": {
+                    "name": "row_id",
+                    "description": "Unique identifier for each row in the table.",
+                    "type": "STRING"
+                },
+                "month_start": {
+                    "name": "month_start",
+                    "description": "First day of the month for which metrics are calculated.",
+                    "type": "DATE"
+                },
+                "table_name": {
+                    "name": "table_name",
+                    "description": "Name of the table representing the network.",
+                    "type": "STRING"
+                },
+                "nodes": {
+                    "name": "nodes",
+                    "description": "Total number of nodes in the network.",
+                    "type": "INT64"
+                },
+                "edges": {
+                    "name": "edges",
+                    "description": "Total number of edges in the network.",
+                    "type": "INT64"
+                },
+                "density": {
+                    "name": "density",
+                    "description": "Network density (ratio of actual to possible connections).",
+                    "type": "FLOAT64"
+                },
+                "connected_components": {
+                    "name": "connected_components",
+                    "description": "Number of connected components in the network.",
+                    "type": "INT64"
+                },
+                "transitivity": {
+                    "name": "transitivity",
+                    "description": "Global transitivity/clustering coefficient of the network.",
+                    "type": "FLOAT64"
+                },
+                "modularity": {
+                    "name": "modularity",
+                    "description": "Modularity score indicating community structure strength.",
+                    "type": "FLOAT64"
+                },
+                "modularity_classes": {
+                    "name": "modularity_classes",
+                    "description": "Number of communities detected in the network.",
+                    "type": "INT64"
+                },
+                "assortativity": {
+                    "name": "assortativity",
+                    "description": "Degree assortativity coefficient of the network.",
+                    "type": "FLOAT64"
+                },
+                "network_avg_toxicity": {
+                    "name": "network_avg_toxicity",
+                    "description": "Average toxicity score across all interactions in the network.",
+                    "type": "FLOAT64"
+                },
+                "median_node_toxicity": {
+                    "name": "median_node_toxicity",
+                    "description": "Median toxicity score of nodes in the network.",
+                    "type": "FLOAT64"
+                },
+                "max_core_number": {
+                    "name": "max_core_number",
+                    "description": "Maximum k-core number found in the network.",
+                    "type": "INT64"
+                },
+                "avg_core_number": {
+                    "name": "avg_core_number",
+                    "description": "Average k-core number across all nodes.",
+                    "type": "FLOAT64"
+                },
+                "rich_club_coefficient": {
+                    "name": "rich_club_coefficient",
+                    "description": "Rich-club coefficient measuring connectivity among high-degree nodes.",
+                    "type": "FLOAT64"
+                },
+                "average_clustering": {
+                    "name": "average_clustering",
+                    "description": "Average clustering coefficient across all nodes.",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_python.tweet_sentiment_analysis": {
+            "name": "tweet_sentiment_analysis",
+            "schema": "base_twitter_python",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_python.tweet_sentiment_analysis",
+            "description": "Table containing sentiment and toxicity analysis predictions for tweets,  along with associated probabilities and timestamps.\n",
+            "columns": {
+                "tweet_id": {
+                    "name": "tweet_id",
+                    "description": "Unique identifier of the tweet.",
+                    "type": "STRING"
+                },
+                "user_id": {
+                    "name": "user_id",
+                    "description": "ID of the user who posted the tweet.",
+                    "type": "STRING"
+                },
+                "recorded_at": {
+                    "name": "recorded_at",
+                    "description": "Timestamp when the tweet was recorded.",
+                    "type": "TIMESTAMP"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "Text content of the tweet.",
+                    "type": "STRING"
+                },
+                "sentiment": {
+                    "name": "sentiment",
+                    "description": "Sentiment classification of the tweet (positive, neutral, negative).",
+                    "type": "STRING"
+                },
+                "positive_probability": {
+                    "name": "positive_probability",
+                    "description": "Probability score for the tweet being classified as positive.",
+                    "type": "FLOAT64"
+                },
+                "neutral_probability": {
+                    "name": "neutral_probability",
+                    "description": "Probability score for the tweet being classified as neutral.",
+                    "type": "FLOAT64"
+                },
+                "negative_probability": {
+                    "name": "negative_probability",
+                    "description": "Probability score for the tweet being classified as negative.",
+                    "type": "FLOAT64"
+                },
+                "toxicity_label": {
+                    "name": "toxicity_label",
+                    "description": "Label indicating whether the tweet is toxic or neutral.",
+                    "type": "STRING"
+                },
+                "toxicity_score": {
+                    "name": "toxicity_score",
+                    "description": "Score indicating the degree of toxicity in the tweet.",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_raw.raw_zenodo_2020_11": {
+            "name": "raw_zenodo_2020_11",
+            "schema": "base_twitter_raw",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_raw.raw_zenodo_2020_11",
+            "description": "",
+            "columns": {
+                "twista": {
+                    "name": "twista",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "type": {
+                    "name": "type",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "id": {
+                    "name": "id",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "user": {
+                    "name": "user",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "recorded_at": {
+                    "name": "recorded_at",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "source": {
+                    "name": "source",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "retweets": {
+                    "name": "retweets",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "favourites": {
+                    "name": "favourites",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "hashtags": {
+                    "name": "hashtags",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "urls": {
+                    "name": "urls",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "mentions": {
+                    "name": "mentions",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "mentioned_ids": {
+                    "name": "mentioned_ids",
+                    "description": "",
+                    "type": "ARRAY<STRING>"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "refers_to": {
+                    "name": "refers_to",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "name": {
+                    "name": "name",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "screen_name": {
+                    "name": "screen_name",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "location": {
+                    "name": "location",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "description": {
+                    "name": "description",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "url": {
+                    "name": "url",
+                    "description": "",
+                    "type": "STRING"
+                },
+                "verified": {
+                    "name": "verified",
+                    "description": "",
+                    "type": "BOOL"
+                },
+                "followers": {
+                    "name": "followers",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "friends": {
+                    "name": "friends",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "listed": {
+                    "name": "listed",
+                    "description": "",
+                    "type": "INT64"
+                },
+                "statuses": {
+                    "name": "statuses",
+                    "description": "",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_raw.raw_zenodo": {
+            "name": "raw_zenodo",
+            "schema": "base_twitter_raw",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_raw.raw_zenodo",
+            "description": "Raw Twitter data containing tweets, user information, and interactions between 2020-2021 for German and English tweets.\n",
+            "columns": {
+                "twista": {
+                    "name": "twista",
+                    "description": "Version of the Twista tool used for data collection.",
+                    "type": "STRING"
+                },
+                "type": {
+                    "name": "type",
+                    "description": "Type of entry (retweet, reply, quote, user, status).",
+                    "type": "STRING"
+                },
+                "id": {
+                    "name": "id",
+                    "description": "Unique identifier for the tweet or user.",
+                    "type": "STRING"
+                },
+                "user": {
+                    "name": "user",
+                    "description": "User ID associated with the entry.",
+                    "type": "STRING"
+                },
+                "created_at": {
+                    "name": "created_at",
+                    "description": "Timestamp of when the tweet was created.",
+                    "type": "STRING"
+                },
+                "recorded_at": {
+                    "name": "recorded_at",
+                    "description": "Timestamp of when the tweet was recorded by Twista (scraper model).",
+                    "type": "STRING"
+                },
+                "source": {
+                    "name": "source",
+                    "description": "Source application or tool used to post the tweet.",
+                    "type": "STRING"
+                },
+                "retweets": {
+                    "name": "retweets",
+                    "description": "Number of retweets.",
+                    "type": "INT64"
+                },
+                "favourites": {
+                    "name": "favourites",
+                    "description": "Number of favourites (likes).",
+                    "type": "INT64"
+                },
+                "lang": {
+                    "name": "lang",
+                    "description": "Language of the tweet.",
+                    "type": "STRING"
+                },
+                "hashtags": {
+                    "name": "hashtags",
+                    "description": "List of hashtags used in the tweet.",
+                    "type": "ARRAY<STRING>"
+                },
+                "urls": {
+                    "name": "urls",
+                    "description": "List of URLs used in the tweet.",
+                    "type": "ARRAY<STRING>"
+                },
+                "mentions": {
+                    "name": "mentions",
+                    "description": "Usernames mentioned in the tweet.",
+                    "type": "ARRAY<STRING>"
+                },
+                "mentioned_ids": {
+                    "name": "mentioned_ids",
+                    "description": "User IDs of the mentioned users.",
+                    "type": "ARRAY<STRING>"
+                },
+                "text": {
+                    "name": "text",
+                    "description": "Text content of the tweet.",
+                    "type": "STRING"
+                },
+                "refers_to": {
+                    "name": "refers_to",
+                    "description": "ID of the tweet to which it refers (in replies, retweets, or quotes).",
+                    "type": "STRING"
+                },
+                "name": {
+                    "name": "name",
+                    "description": "Display name of the user.",
+                    "type": "STRING"
+                },
+                "screen_name": {
+                    "name": "screen_name",
+                    "description": "Username of the user.",
+                    "type": "STRING"
+                },
+                "location": {
+                    "name": "location",
+                    "description": "User-defined location for their account.",
+                    "type": "STRING"
+                },
+                "description": {
+                    "name": "description",
+                    "description": "The user-defined description of the profile.",
+                    "type": "STRING"
+                },
+                "url": {
+                    "name": "url",
+                    "description": "URL provided by the user in their profile.",
+                    "type": "STRING"
+                },
+                "verified": {
+                    "name": "verified",
+                    "description": "Boolean indicating whether the user is verified.",
+                    "type": "BOOL"
+                },
+                "followers": {
+                    "name": "followers",
+                    "description": "Number of followers.",
+                    "type": "INT64"
+                },
+                "friends": {
+                    "name": "friends",
+                    "description": "Number of accounts the user is following.",
+                    "type": "INT64"
+                },
+                "listed": {
+                    "name": "listed",
+                    "description": "Number of public lists that this user is a member of.",
+                    "type": "INT64"
+                },
+                "statuses": {
+                    "name": "statuses",
+                    "description": "Number of tweets (including retweets) issued by the user.",
+                    "type": "INT64"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_raw.ext_epi_netz_de": {
+            "name": "ext_epi_netz_de",
+            "schema": "base_twitter_raw",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_raw.ext_epi_netz_de",
+            "description": "External data mapping German politicians to their Twitter accounts with additional metadata from the EPI network dataset.\n",
+            "columns": {
+                "user_id": {
+                    "name": "user_id",
+                    "description": "Unique Twitter user ID of the politician.",
+                    "type": "STRING"
+                },
+                "official_name": {
+                    "name": "official_name",
+                    "description": "Official full name of the politician.",
+                    "type": "STRING"
+                },
+                "party": {
+                    "name": "party",
+                    "description": "Political party affiliation of the politician.",
+                    "type": "STRING"
+                },
+                "region": {
+                    "name": "region",
+                    "description": "Geographic region represented by the politician.",
+                    "type": "STRING"
+                },
+                "institution": {
+                    "name": "institution",
+                    "description": "Political institution (e.g., Bundestag, Landtag).",
+                    "type": "STRING"
+                },
+                "office": {
+                    "name": "office",
+                    "description": "Political office held by the politician.",
+                    "type": "STRING"
+                },
+                "twitter_name": {
+                    "name": "twitter_name",
+                    "description": "Official Twitter display name.",
+                    "type": "STRING"
+                },
+                "twitter_handle": {
+                    "name": "twitter_handle",
+                    "description": "The politician's Twitter username in lowercase.",
+                    "type": "STRING"
+                },
+                "year_of_birth": {
+                    "name": "year_of_birth",
+                    "description": "Birth year of the politician.",
+                    "type": "INT64"
+                },
+                "abgeordnetenwatch_id": {
+                    "name": "abgeordnetenwatch_id",
+                    "description": "Unique ID from the abgeordnetenwatch.de platform.",
+                    "type": "INT64"
+                },
+                "gender": {
+                    "name": "gender",
+                    "description": "Gender of the politician.",
+                    "type": "STRING"
+                },
+                "wikidata_id": {
+                    "name": "wikidata_id",
+                    "description": "Wikidata entity ID for the politician.",
+                    "type": "STRING"
+                }
+            },
+            "meta": {}
+        },
+        "grounded-nebula-408412.base_twitter_raw.hashtag_categorisation": {
+            "name": "hashtag_categorisation",
+            "schema": "base_twitter_raw",
+            "database": "grounded-nebula-408412",
+            "project": "grounded-nebula-408412",
+            "full_table_name": "grounded-nebula-408412.base_twitter_raw.hashtag_categorisation",
+            "description": "Table containing categorized hashtag usage, including engagement statistics, political relevance, and confidence scores.\n",
+            "columns": {
+                "hashtag": {
+                    "name": "hashtag",
+                    "description": "The hashtag being analyzed.",
+                    "type": "STRING"
+                },
+                "usage_count": {
+                    "name": "usage_count",
+                    "description": "The total number of times the hashtag was used.",
+                    "type": "INT64"
+                },
+                "unique_users": {
+                    "name": "unique_users",
+                    "description": "The number of unique users who used the hashtag.",
+                    "type": "INT64"
+                },
+                "politician_users": {
+                    "name": "politician_users",
+                    "description": "The number of politicians who used the hashtag.",
+                    "type": "INT64"
+                },
+                "first_used_at": {
+                    "name": "first_used_at",
+                    "description": "The timestamp when the hashtag was first used.",
+                    "type": "STRING"
+                },
+                "last_used_at": {
+                    "name": "last_used_at",
+                    "description": "The timestamp when the hashtag was last used.",
+                    "type": "STRING"
+                },
+                "pct_political_users": {
+                    "name": "pct_political_users",
+                    "description": "The percentage of users who are politicians.",
+                    "type": "FLOAT64"
+                },
+                "days_active": {
+                    "name": "days_active",
+                    "description": "The number of days between the first and last use of the hashtag.",
+                    "type": "INT64"
+                },
+                "categories": {
+                    "name": "categories",
+                    "description": "The assigned categories for the hashtag, separated by semicolons (`;`).",
+                    "type": "STRING"
+                },
+                "confidence": {
+                    "name": "confidence",
+                    "description": "Confidence score (0-1) indicating the reliability of the categorization.",
+                    "type": "FLOAT64"
+                }
+            },
+            "meta": {}
+        }
+    }
+}

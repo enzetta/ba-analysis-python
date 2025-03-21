@@ -1,0 +1,151 @@
+Detailed Statistical Measures for Climate Network:
+
+modularity vs network_avg_toxicity:
+  pearson_r: -0.5341
+  pearson_p: 0.0072
+  spearman_r: -0.4487
+  spearman_p: 0.0279
+  r_squared: 0.2853
+  slope: -0.5341
+  intercept: -0.0000
+  Strongest lag: 3 months (correlation: -0.5481, R²: 0.2824)
+
+modularity vs transitivity:
+  pearson_r: -0.5701
+  pearson_p: 0.0036
+  spearman_r: -0.4417
+  spearman_p: 0.0307
+  r_squared: 0.3251
+  slope: -0.5701
+  intercept: -0.0000
+  Strongest lag: 0 months (correlation: -0.4417, R²: 0.3251)
+
+modularity vs assortativity:
+  pearson_r: -0.0207
+  pearson_p: 0.9236
+  spearman_r: -0.0096
+  spearman_p: 0.9646
+  r_squared: 0.0004
+  slope: -0.0207
+  intercept: 0.0000
+  Strongest lag: 3 months (correlation: 0.3494, R²: 0.2919)
+
+modularity vs average_clustering:
+  pearson_r: -0.2013
+  pearson_p: 0.3456
+  spearman_r: -0.0235
+  spearman_p: 0.9133
+  r_squared: 0.0405
+  slope: -0.2013
+  intercept: -0.0000
+  Strongest lag: 1 months (correlation: -0.0731, R²: 0.0077)
+
+modularity vs connected_components:
+  pearson_r: -0.3369
+  pearson_p: 0.1074
+  spearman_r: -0.4191
+  spearman_p: 0.0415
+  r_squared: 0.1135
+  slope: -0.3369
+  intercept: -0.0000
+  Strongest lag: 3 months (correlation: -0.6481, R²: 0.2487)
+
+network_avg_toxicity vs transitivity:
+  pearson_r: -0.0124
+  pearson_p: 0.9541
+  spearman_r: -0.0252
+  spearman_p: 0.9069
+  r_squared: 0.0002
+  slope: -0.0124
+  intercept: 0.0000
+  Strongest lag: 2 months (correlation: -0.1338, R²: 0.0076)
+
+network_avg_toxicity vs assortativity:
+  pearson_r: -0.1301
+  pearson_p: 0.5447
+  spearman_r: -0.1052
+  spearman_p: 0.6246
+  r_squared: 0.0169
+  slope: -0.1301
+  intercept: 0.0000
+  Strongest lag: 2 months (correlation: -0.4715, R²: 0.1977)
+
+network_avg_toxicity vs average_clustering:
+  pearson_r: -0.0818
+  pearson_p: 0.7041
+  spearman_r: -0.1000
+  spearman_p: 0.6420
+  r_squared: 0.0067
+  slope: -0.0818
+  intercept: -0.0000
+  Strongest lag: 0 months (correlation: -0.1000, R²: 0.0067)
+
+network_avg_toxicity vs connected_components:
+  pearson_r: 0.2957
+  pearson_p: 0.1606
+  spearman_r: 0.3217
+  spearman_p: 0.1252
+  r_squared: 0.0875
+  slope: 0.2957
+  intercept: -0.0000
+  Strongest lag: 3 months (correlation: 0.3727, R²: 0.1196)
+
+transitivity vs assortativity:
+  pearson_r: 0.1501
+  pearson_p: 0.4838
+  spearman_r: 0.1861
+  spearman_p: 0.3840
+  r_squared: 0.0225
+  slope: 0.1501
+  intercept: 0.0000
+  Strongest lag: 3 months (correlation: -0.3532, R²: 0.1336)
+
+transitivity vs average_clustering:
+  pearson_r: 0.4467
+  pearson_p: 0.0286
+  spearman_r: 0.5539
+  spearman_p: 0.0050
+  r_squared: 0.1995
+  slope: 0.4467
+  intercept: -0.0000
+  Strongest lag: 0 months (correlation: 0.5539, R²: 0.1995)
+
+transitivity vs connected_components:
+  pearson_r: 0.3921
+  pearson_p: 0.0581
+  spearman_r: 0.3678
+  spearman_p: 0.0770
+  r_squared: 0.1538
+  slope: 0.3921
+  intercept: -0.0000
+  Strongest lag: 0 months (correlation: 0.3678, R²: 0.1538)
+
+assortativity vs average_clustering:
+  pearson_r: 0.1929
+  pearson_p: 0.3665
+  spearman_r: 0.1626
+  spearman_p: 0.4478
+  r_squared: 0.0372
+  slope: 0.1929
+  intercept: -0.0000
+  Strongest lag: 1 months (correlation: 0.3251, R²: 0.1180)
+
+assortativity vs connected_components:
+  pearson_r: -0.1346
+  pearson_p: 0.5307
+  spearman_r: 0.0235
+  spearman_p: 0.9133
+  r_squared: 0.0181
+  slope: -0.1346
+  intercept: -0.0000
+  Strongest lag: 1 months (correlation: -0.3597, R²: 0.1835)
+
+average_clustering vs connected_components:
+  pearson_r: -0.0518
+  pearson_p: 0.8100
+  spearman_r: -0.0678
+  spearman_p: 0.7528
+  r_squared: 0.0027
+  slope: -0.0518
+  intercept: -0.0000
+  Strongest lag: 2 months (correlation: 0.1169, R²: 0.0037)

@@ -1,0 +1,251 @@
+node_id,party,account_type,confidence
+abaerbockarchiv,Bündnis 90/Die Grünen,Politician,0.95
+arminlaschet,CDU,Politician,0.95
+die_gruenen,Bündnis 90/Die Grünen,Political Party,0.95
+olafscholz,SPD,Politician,0.95
+karl_lauterbach,SPD,Politician,0.95
+cdu,CDU,Political Party,0.95
+derspiegel,,Media/News,0.95
+spdde,SPD,Political Party,0.95
+markus_soeder,CSU,Politician,0.95
+c_lindner,FDP,Politician,0.95
+fdp,FDP,Political Party,0.95
+prosieben,,Media/News,0.95
+zdf,,Media/News,0.85
+cem_oezdemir,Bündnis 90/Die Grünen,Politician,0.95
+dielinke,DIE LINKE,Political Party,0.95
+bild,,Media/News,0.95
+jensspahn,CDU,Politician,0.95
+welt,,Media/News,0.95
+csu,CSU,Political Party,0.95
+_friedrichmerz,CDU,Politician,0.95
+daserste,,Media/News,0.95
+bmg_bund,NA,Institution,0.95
+auschwitzmuseum,,Institution,0.95
+jholofernes,,Other,0.85
+paulziemiak,CDU,Politician,0.95
+tagesschau,,Media/News,0.95
+anjakarliczek,CDU,Politician,0.95
+fridayforfuture,,Other,0.95
+rahmstorf,,Other,0.85
+bpb_de,,Other,0.85
+ntvde,,Media/News,0.85
+mwfkbrb,,Other,0.85
+gruene_sachsen,,Political Party,0.85
+cha_knobloch,,Other,0.85
+bauhaus_erde,,Other,0.85
+vquaschning,,Other,0.85
+bvb,,Other,0.85
+phoenix_de,,Other,0.85
+rki_de,,Other,0.85
+larsklingbeil,SPD,Politician,0.95
+rbb24,,Media/News,0.95
+emmanuelmacron,,Politician,0.95
+mikellner,Bündnis 90/Die Grünen,Politician,0.95
+rezomusik,,Other,0.85
+ard_bab,,Other,0.85
+tagesspiegel,,Media/News,0.95
+afd,AfD,Political Party,0.95
+watch_union,,Other,0.85
+eskensaskia,SPD,Politician,0.95
+franziskagiffey,SPD,Politician,0.95
+alice_weidel,AfD,Politician,0.95
+campact,,Other,0.85
+claasgefroi,,Other,0.85
+sz,,Other,0.85
+brunolemaire,,Politician,0.95
+zdfheute,,Media/News,0.95
+mariowettlaufer,,Other,0.85
+fabiodemasi,DIE LINKE,Politician,0.95
+cnathusius,,Other,0.85
+reinerhaseloff,CDU,Politician,0.95
+janine_wissler,DIE LINKE,Politician,0.95
+dietmarbartsch,DIE LINKE,Politician,0.95
+br24,,Media/News,0.95
+bts_twt,,Other,0.95
+billieeilishbr,,Other,0.95
+tagesthemen,,Media/News,0.95
+peteraltmaier,CDU,Politician,0.95
+marcobuschmann,FDP,Politician,0.95
+brihasselmann,Bündnis 90/Die Grünen,Politician,0.95
+sixtus,,Other,0.85
+goeringeckardt,Bündnis 90/Die Grünen,Politician,0.95
+zaklinnastic,DIE LINKE,Politician,0.95
+spdberlin,SPD,Political Party,0.95
+jeancastex,,Politician,0.95
+cducsubt,CDU,Political Party,0.95
+cducsubt,CSU,Political Party,0.95
+famunt,,Other,0.85
+bmf_bund,NA,Institution,0.95
+jenshealthde,,Other,0.85
+rbrinkhaus,CSU,Politician,0.95
+swagenknecht,DIE LINKE,Politician,0.95
+spdbt,SPD,Political Party,0.95
+c_drosten,,Other,0.85
+sven_kindler,Bündnis 90/Die Grünen,Politician,0.95
+bettina_jarasch,Bündnis 90/Die Grünen,Politician,0.95
+hgmaassen,,Other,0.85
+markusblume,CSU,Politician,0.95
+janboehm,,Media/News,0.85
+gruenebundestag,Bündnis 90/Die Grünen,Political Party,0.95
+handelsblatt,,Media/News,0.95
+niggi,,Other,0.85
+sand_imgetriebe,,Other,0.85
+kuehnikev,SPD,Politician,0.95
+iaamobility,,Other,0.85
+lilithwittmann,,Other,0.85
+edsheeran,,Other,0.95
+derdanyal,Bündnis 90/Die Grünen,Politician,0.95
+rnd_de,,Other,0.85
+artemi_ecrit,,Other,0.85
+kathazachi,,Other,0.85
+piratenpartei,Piratenpartei,Political Party,0.95
+heikomaas,SPD,Politician,0.95
+zeitonline,,Media/News,0.95
+wdraktuell,,Media/News,0.95
+dlf,,Other,0.85
+kaungkhanthto10,,Other,0.85
+dwenteignen,,Other,0.85
+wissing,FDP,Politician,0.95
+klauslederer,DIE LINKE,Politician,0.95
+jdoeschner,,Other,0.85
+vonderleyen,CDU,Politician,0.95
+quhl5,,Other,0.85
+diehljoerg,,Politician,0.85
+media_chin,,Media/News,0.95
+dorobaer,CSU,Politician,0.95
+joanacotar,AfD,Politician,0.95
+ransport,,Other,0.85
+der_postillon,,Media/News,0.95
+martinsonneborn,DIE PARTEI,Politician,0.95
+nsuwatch,,Other,0.85
+mickybeisenherz,,Other,0.85
+eckerleisabella,,Other,0.85
+clausstrunz,,Media/News,0.85
+manuelaschwesig,SPD,Politician,0.95
+diw_berlin,,Institution,0.85
+voltdeutschland,Volt Deutschland,Political Party,0.95
+hubertus_heil,SPD,Politician,0.95
+akk,CDU,Political Party,0.95
+akk,CSU,Political Party,0.95
+bmbf_bund,NA,Institution,0.95
+faznet,,Media/News,0.95
+championsleague,,Other,0.85
+rosenbusch_,,Other,0.85
+sat1,,Other,0.85
+luisamneubauer,,Other,0.85
+rtl_com,,Media/News,0.95
+heuteshow,,Media/News,0.95
+derya_tn,SPD,Politician,0.9
+ulfposh,,Other,0.85
+ricarda_lang,Bündnis 90/Die Grünen,Politician,0.95
+hubertaiwanger,Freie Wähler,Politician,0.95
+linksfraktion,DIE LINKE,Political Party,0.95
+sawsanchebli,SPD,Politician,0.95
+konstantinnotz,Bündnis 90/Die Grünen,Politician,0.95
+buergerratklima,,Other,0.85
+gruene_berlin,Bündnis 90/Die Grünen,Political Party,0.95
+nabu_de,,Other,0.85
+herrnaumann,,Other,0.85
+stbrandner,AfD,Politician,0.95
+robinalexander_,,Other,0.85
+ardde,,Other,0.85
+shomburg,,Other,0.85
+prienkarin,CDU,Politician,0.95
+ronzheimer,,Media/News,0.85
+wiwo,,Media/News,0.85
+weltamsonntag,,Media/News,0.95
+jhillje,,Other,0.85
+koehler_fdp,FDP,Politician,0.95
+gregorgysi,DIE LINKE,Politician,0.95
+spiegel_eil,,Media/News,0.95
+aminajxx,Bündnis 90/Die Grünen,Politician,0.95
+akm0803,,Other,0.85
+katapultmagazin,,Media/News,0.85
+sandra_weeser,FDP,Politician,0.95
+documentingbtc,,Other,0.85
+konstantinkuhle,FDP,Politician,0.95
+w_schmidt_,SPD,Politician,0.95
+fdp_nrw,FDP,Political Party,0.95
+bodoramelow,DIE LINKE,Politician,0.95
+igorpianist,,Other,0.85
+manuel_neuer,,Other,0.95
+dielinkeberlin,DIE LINKE,Political Party,0.95
+papkegerhard,,Other,0.85
+hartes_geld,,Other,0.85
+afd_muenster,,Other,0.85
+sven_giegold,Bündnis 90/Die Grünen,Politician,0.95
+juliakloeckner,CDU,Politician,0.95
+wahlrecht_de,,Media/News,0.85
+oliver_krischer,Bündnis 90/Die Grünen,Politician,0.95
+bare_fucker,,Other,0.85
+ntvde_politik,,Media/News,0.85
+dimetra_ecrit,,Other,0.85
+svenlehmann,Bündnis 90/Die Grünen,Politician,0.95
+jreichelt,,Other,0.85
+wdr,,Media/News,0.85
+volksverpetzer,,Media/News,0.85
+isabelschayani,,Media/News,0.85
+olafgersemann,,Media/News,0.85
+cduberlin,CDU,Political Party,0.95
+andreasscheuer,CSU,Politician,0.95
+matthiashauer,CDU,Politician,0.95
+jankortemdb,DIE LINKE,Politician,0.95
+footlive27,,Other,0.85
+greenpeace_de,,Other,0.95
+tilojung,,Other,0.85
+polenz_r,,Politician,0.85
+ronald_sl,,Other,0.85
+alexwallasch,,Other,0.85
+buon_anni,,Other,0.85
+diebasispartei,dieBasis,Political Party,0.95
+glocalreporting,,Media/News,0.85
+abaerbock,Bündnis 90/Die Grünen,Politician,0.95
+katharinakoenig,DIE LINKE,Politician,0.95
+auswaertigesamt,NA,Other,0.95
+polizeisachsen,,Institution,0.95
+tino_chrupalla,AfD,Politician,0.95
+aufstandlastgen,,Other,0.85
+who,,Institution,0.9
+johannesvogel,FDP,Politician,0.95
+fdpbt,FDP,Political Party,0.95
+ladybitchray1,,Other,0.85
+beatrix_vstorch,AfD,Politician,0.95
+sciforfuture,,Other,0.85
+iaademo,,Other,0.85
+maischberger,,Media/News,0.85
+berndulrich,,Media/News,0.85
+claushecking,,Other,0.85
+nurderk,,Other,0.85
+feuerwehrhh,,Other,0.85
+ver_jorg,,Other,0.85
+kaiwegner,CDU,Politician,0.95
+radtkemdep,CDU,Politician,0.95
+watch_greens,,Other,0.85
+irenemihalic,Bündnis 90/Die Grünen,Politician,0.95
+mkreutzfeldt,,Other,0.85
+unteilbar_,,Other,0.85
+manaf12hassan,,Other,0.85
+visevic,,Other,0.85
+georg_pazderski,AfD,Politician,0.95
+wdrinvestigativ,,Media/News,0.95
+ferdaataman,,Other,0.85
+chrisstoecker,,Other,0.85
+juliusbetschka,,Other,0.85
+umwelthilfe,,Other,0.85
+zdfnrw,,Other,0.85
+wwf_deutschland,,Other,0.95
+dlfnachrichten,,Media/News,0.95
+ninastahr,Bündnis 90/Die Grünen,Politician,0.95
+katjakipping,DIE LINKE,Politician,0.95
+az_augsburg,,Other,0.85
+pulgafut,,Other,0.85
+katarinabarley,SPD,Politician,0.95
+prosiebenmaxx,,Media/News,0.95
+wahlen_de,,Media/News,0.85
+un,,Other,0.85
+parents4future,,Other,0.85
+bmvg_bundeswehr,NA,Institution,0.95
+a_watch,,Other,0.85
+nenacasc,,Other,0.85
+nowabofm,,Other,0.85
